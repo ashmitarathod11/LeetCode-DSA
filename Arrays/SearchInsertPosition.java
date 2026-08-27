@@ -40,5 +40,5 @@ public class SearchInsertPosition {
         int result = searchInsert(nums, target);
 
         System.out.println("Insert position = " + result);
-    }s
+    }
 }
