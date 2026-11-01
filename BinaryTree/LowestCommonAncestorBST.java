@@ -12,7 +12,6 @@ public class LowestCommonAncestorBST {
 
     public static TreeNode lowestCommonAncestor(
             TreeNode root, TreeNode p, TreeNode q) {
-
         while (root != null) {
 
             if (p.val < root.val && q.val < root.val) {
